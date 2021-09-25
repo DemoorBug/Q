@@ -1,0 +1,118 @@
+.inputvalue {
+  position: relative;
+  display: inline-block;
+  border: $input-border-width solid $input-border-color;
+}
+
+.input-group {
+  border: none;
+  position: relative;
+  @include input-size(
+    $input-padding-y,
+    $input-padding-x,
+    $input-font-size
+  );
+  line-height: $input-line-height;
+  color: $input-color;
+  font-family: $input-font-family;
+  background: $input-bg;
+  outline: none;
+  // border-radius: $input-border-radius;
+  transition: all 0.3s linear;
+
+  &:focus {
+    background: $input-focus-bg;
+    border-color: $input-focus-border-color;
+    color: $input-focus-color;
+    box-shadow: $input-focus-box-shadow;
+  }
+}
+.input-icon {
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 10px;
+}
+.input-prefixs {
+  border-right: $input-border-width solid
+    $input-border-color;
+  display: inline-block;
+  @include input-size(
+    $input-padding-y,
+    $input-padding-x,
+    $input-font-size
+  );
+  line-height: $input-line-height;
+  color: $input-color;
+  font-family: $input-font-family;
+  background: $input-bg;
+  margin: 0;
+  // border-radius: $input-border-radius;
+}
+.input-append {
+  border-left: $input-border-width solid $input-border-color;
+  display: inline-block;
+  @include input-size(
+    $input-padding-y,
+    $input-padding-x,
+    $input-font-size
+  );
+  line-height: $input-line-height;
+  color: $input-color;
+  font-family: $input-font-family;
+  background: $input-bg;
+  margin: 0;
+}
+
+.input-lg {
+  .input-prefixs {
+    @include input-size(
+      $input-padding-y-lg,
+      $input-padding-x-lg,
+      $input-font-size-lg
+    );
+  }
+  .input-group {
+    @include input-size(
+      $input-padding-y-lg,
+      $input-padding-x-lg,
+      $input-font-size-lg
+    );
+  }
+  .input-append {
+    @include input-size(
+      $input-padding-y-lg,
+      $input-padding-x-lg,
+      $input-font-size-lg
+    );
+  }
+  .input-icon {
+    margin-top: 15px;
+  }
+}
+
+.input-sm {
+  .input-prefixs {
+    @include input-size(
+      $input-padding-y-sm,
+      $input-padding-x-sm,
+      $input-font-size-sm
+    );
+  }
+  .input-group {
+    @include input-size(
+      $input-padding-y-sm,
+      $input-padding-x-sm,
+      $input-font-size-sm
+    );
+  }
+  .input-append {
+    @include input-size(
+      $input-padding-y-sm,
+      $input-padding-x-sm,
+      $input-font-size-sm
+    );
+  }
+  .input-icon {
+    margin-top: 7px;
+  }
+}

@@ -7,6 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import Menu from './components/Menu/menu'
 import MenuItem from './components/Menu/menuitem'
 import SubMenu from './components/Menu/subMenu'
+import { Input } from './components/Input/input'
 import Icon from './components/Icon/icon'
 library.add(fas)
 function App() {
@@ -15,18 +16,23 @@ function App() {
       <header className='App-header'>
         <Icon theme='danger' icon='coffee' size='10x' />
         <Menu defaultIndex='0' onSelect={i => alert(i)}>
-          <MenuItem>cool link</MenuItem>
-          <MenuItem>cool link 2</MenuItem>
+          <MenuItem>helosandfj</MenuItem>
+          <MenuItem>wodefahek</MenuItem>
           <SubMenu title='dropdown'>
-            <MenuItem>dropdown 1</MenuItem>
-            <MenuItem>dropdown 2</MenuItem>
-            <MenuItem>dropdown 3</MenuItem>
+            <MenuItem>helonames</MenuItem>
+            <MenuItem>wodefa</MenuItem>
+            <MenuItem>sdjfakldfjcdf</MenuItem>
           </SubMenu>
           <MenuItem index='4'>cool link 3</MenuItem>
         </Menu>
+        <Input
+          prefixs='hello'
+          icon='check-circle'
+          theme='secondary'
+          append='.com'
+        />
       </header>
     </div>
   )
 }
-
 export default App

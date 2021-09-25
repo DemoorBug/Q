@@ -4,6 +4,9 @@ import {
   FontAwesomeIcon,
   FontAwesomeIconProps
 } from '@fortawesome/react-fontawesome'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+library.add(fas)
 
 export type ThemeProps =
   | 'primary'
@@ -19,7 +22,7 @@ export interface IconProps extends FontAwesomeIconProps {
   theme?: ThemeProps
 }
 
-const Icon: React.FC<IconProps> = props => {
+export const Icon: React.FC<IconProps> = props => {
   // icon-primary
   const { className, theme, ...restProps } = props
   const classes = classNames('viking-icon', className, {

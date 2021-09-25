@@ -1,0 +1,108 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.032  000.032: --- NVIM STARTING ---
+003.096  003.064: locale set
+003.878  000.782: inits 1
+003.898  000.020: window checked
+003.987  000.090: parsing arguments
+004.443  000.456: expanding arguments
+004.527  000.084: inits 2
+004.893  000.366: init highlight
+004.895  000.002: waiting for UI
+008.161  003.266: done waiting for UI
+008.179  000.018: initialized screen early for UI
+177.414  167.870  167.870: sourcing /home/demoorbug/.config/nvim/init.lua
+177.552  001.503: sourcing vimrc file(s)
+195.478  017.120  017.120: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/filetype.vim
+200.404  000.093  000.093: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/ftplugin.vim
+205.269  000.089  000.089: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/indent.vim
+211.475  000.305  000.305: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/syntax/syncolor.vim
+215.634  005.287  004.982: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/syntax/synload.vim
+215.750  006.260  000.973: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/syntax/syntax.vim
+223.047  000.387  000.387: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/gzip.vim
+223.296  000.061  000.061: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/health.vim
+223.602  000.117  000.117: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/man.vim
+227.702  000.242  000.242: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+228.836  005.014  004.772: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/matchit.vim
+229.169  000.190  000.190: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/matchparen.vim
+229.748  000.430  000.430: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/netrwPlugin.vim
+230.429  000.061  000.061: sourcing /home/demoorbug/.local/share/nvim/rplugin.vim
+230.455  000.486  000.426: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/rplugin.vim
+230.771  000.136  000.136: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/shada.vim
+231.045  000.079  000.079: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/spellfile.vim
+231.405  000.185  000.185: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/tarPlugin.vim
+231.768  000.150  000.150: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/tohtml.vim
+232.039  000.070  000.070: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/tutor.vim
+232.425  000.220  000.220: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/plugin/zipPlugin.vim
+234.578  025.938: loading plugins
+236.037  000.168  000.168: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/start/lsp-trouble.nvim/plugin/trouble.vim
+237.263  000.144  000.144: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/start/nvim-lspconfig/plugin/lspconfig.vim
+238.424  000.086  000.086: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/start/nvim-lspinstall/plugin/lspinstall.vim
+239.571  000.089  000.089: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/start/nvim-web-devicons/plugin/nvim-web-devicons.vim
+240.754  000.088  000.088: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/start/snap/plugin/snap.vim
+242.172  000.324  000.324: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/start/vim-floaterm/plugin/floaterm.vim
+243.512  000.226  000.226: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/start/vim-rooter/plugin/rooter.vim
+244.737  000.148  000.148: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/start/vim-which-key/plugin/which_key.vim
+247.561  011.709: loading packages
+251.599  004.038: loading after plugins
+251.627  000.029: inits 3
+252.373  000.745: reading ShaDa
+257.879  000.239  000.239: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/markdown-preview.nvim/plugin/mkdp.vim
+263.107  000.093  000.093: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/plenary.nvim/plugin/plenary.vim
+313.105  000.670  000.670: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/start/vim-which-key/autoload/which_key.vim
+363.687  000.079  000.079: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/indent-blankline.nvim/autoload/indent_blankline.vim
+366.252  049.910  049.831: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/indent-blankline.nvim/plugin/indent_blankline.vim
+386.209  014.617  014.617: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/git-blame.nvim/plugin/gitblame.vim
+398.437  000.276  000.276: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/suda.vim/plugin/suda.vim
+402.615  001.463  001.463: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/galaxyline.nvim/plugin/galaxyline.vim
+406.614  000.611  000.611: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/any-jump.vim/plugin/any-jump.vim
+410.195  000.794  000.794: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/vim-arsync/plugin/vim-arsync.vim
+419.025  006.082  006.082: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/symbols-outline.nvim/plugin/symbols-outline.vim
+423.535  001.444  001.444: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/vim-fugitive/plugin/fugitive.vim
+424.375  000.065  000.065: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/vim-fugitive/ftdetect/fugitive.vim
+446.998  020.222  020.222: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/plugin/nvim-treesitter.vim
+448.351  000.077  000.077: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/elixir.vim
+448.610  000.064  000.064: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/fish.vim
+448.827  000.064  000.064: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/gdresource.vim
+449.099  000.064  000.064: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/gdscript.vim
+449.349  000.059  000.059: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/gomod.vim
+449.613  000.065  000.065: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/graphql.vim
+449.895  000.067  000.067: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/hcl.vim
+450.162  000.065  000.065: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/heex.vim
+450.419  000.058  000.058: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/json5.vim
+450.690  000.062  000.062: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/julia.vim
+450.963  000.068  000.068: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/ledger.vim
+451.230  000.064  000.064: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/nix.vim
+451.511  000.065  000.065: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/ql.vim
+451.782  000.070  000.070: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/query.vim
+452.050  000.066  000.066: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/surface.vim
+452.310  000.062  000.062: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/teal.vim
+452.592  000.065  000.065: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/tlaplus.vim
+452.855  000.062  000.062: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/yang.vim
+453.493  000.070  000.070: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/zig.vim
+456.638  000.703  000.703: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/playground/plugin/nvim-treesitter-playground.vim
+499.879  003.771  003.771: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-autopairs/plugin/nvim-autopairs.vim
+563.619  000.187  000.187: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/ftplugin/typescript.vim
+568.759  008.843  008.656: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/ftplugin/typescriptreact.vim
+633.124  006.621  006.621: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/syntax/typescriptcommon.vim
+633.232  007.186  000.565: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/syntax/typescriptreact.vim
+758.217  387.621: opening buffers
+758.837  000.620: BufEnter autocommands
+758.842  000.005: editing files in windows
+767.680  000.311  000.311: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/syntax/syncolor.vim
+777.469  000.409  000.409: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/syntax/syncolor.vim
+787.039  000.298  000.298: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/syntax/syncolor.vim
+793.496  031.552  030.534: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/lvim-colorscheme/colors/lvim.vim
+797.610  000.096  000.096: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-colorizer.lua/plugin/colorizer.vim
+830.812  000.094  000.094: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/nvim-jdtls/plugin/nvim_jdtls.vim
+834.477  000.624  000.624: sourcing /home/demoorbug/.local/share/nvim/site/pack/packer/opt/dashboard-nvim/plugin/dashboard.vim
+841.103  049.895: VimEnter autocommands
+841.108  000.005: UIEnter autocommands
+859.560  014.523  014.523: sourcing /home/demoorbug/download/nvim-linux64/share/nvim/runtime/autoload/provider/clipboard.vim
+859.584  003.953: before starting main loop
+1073.845  214.262: first screen update
+1073.850  000.004: --- NVIM STARTED ---
